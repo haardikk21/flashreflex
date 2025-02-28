@@ -14,7 +14,7 @@ export function NavigationBar() {
 
       <div className="flex items-center gap-2">
         <Link
-          href="https://github.com/yourusername/flashreflex"
+          href="https://github.com/haardikk21/flashreflex"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center p-2 rounded-full bg-muted hover:bg-muted/80 transition-colors"
