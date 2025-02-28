@@ -11,12 +11,10 @@ import { WagmiProvider } from "wagmi";
 import { baseSepolia } from "wagmi/chains";
 import "./globals.css";
 
-import { baseSepoliaPreconfs } from "@/lib/base-sepolia-preconfs";
-
 const config = getDefaultConfig({
   appName: "FlashReflex",
   projectId: "7817345d4eed1ad1d3bb967cdd1e6bea",
-  chains: [baseSepolia, baseSepoliaPreconfs],
+  chains: [baseSepolia],
   ssr: true,
 });
 
